@@ -1,4 +1,7 @@
-<section id="about" class="min-h-screen w-full flex flex-col items-center justify-center py-20 px-5 relative">
+<section
+  id="about"
+  class="min-h-screen w-full flex flex-col items-center justify-center py-20 px-5 relative pt-[100px] md:pt-[120px]"
+>
     <h2 class="text-2xl md:text-3xl font-bold text-center" data-aos="fade-up" data-aos-delay="200">Buenas <span class="animate-wave">👋</span></h2>
     <h1 class="text-2xl md:text-5xl text-center font-bold" data-aos="fade-up" data-aos-delay="400">Yo soy <span class="text-4xl md:text-6xl text-(--ui-primary)">Octavio Pastorive</span></h1>
     <div class="text-header h-[40px] sm:h-[45px] md:h-[60px] overflow-hidden" data-aos="fade-up" data-aos-delay="500">

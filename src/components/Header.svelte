@@ -1,15 +1,16 @@
 <header class="flex fixed w-full top-0 left-1/2 transform -translate-x-1/2 z-50 md:backdrop-blur">
   <div class="flex justify-between items-center py-3 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-    <a
-      href="#sobre-mi"
-      on:click="{e => handleClick(e, 'about')}"
-      class="text-2xl font-bold relative"
-      data-aos="fade-right"
-      data-aos-delay="200"
-      aria-label="logo"
-    >
-      <span class="logo w-8 h-8 top-1 md:w-10 md:h-10 inline-block bg-white hover:bg-(--ui-primary) relative z-20"></span>
-      <div class="absolute rounded-full -top-30 left-1/2 transform -translate-x-1/2 size-[300px] z-10 bg-(--ui-primary) opacity-90 blur-[200px]"></div>
+    <a href="/" class="block w-20 h-20 relative group">
+      <img
+        src="/logo-op-default.png"
+        alt="Logo <OP/>"
+        class="absolute inset-0 w-full h-full object-contain opacity-100 group-hover:opacity-0 transition duration-300"
+      />
+      <img
+        src="/logo-op-hover.png"
+        alt="Logo <OP/> Hover"
+        class="absolute inset-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition duration-300"
+      />
     </a>
 
     <!-- Hamburger Menu Button -->
